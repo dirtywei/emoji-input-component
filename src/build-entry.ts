@@ -1,1 +1,2 @@
-export * from './components'
+import EmojiInput from './components/EmojiInput.vue'
+export default EmojiInput
