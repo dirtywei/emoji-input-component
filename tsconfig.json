@@ -4,8 +4,8 @@
     "declarationDir": "./dist/types" /* '.d.ts' 文件输出目录 */,
     "jsx": "preserve"
   },
-  "include": ["./**/*.*", "src/vite-env.d.ts"],
-  "exclude": ["node_modules"],
+  "include": ["src/components/**/*.*", "src/vite-env.d.ts"],
+  "exclude": ["node_modules", "dist"],
   "esModuleInterop": true,
   "allowSyntheticDefaultImports": "true"
 }

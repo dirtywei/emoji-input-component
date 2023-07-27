@@ -1,14 +1,14 @@
 {
   "name": "@dirtywei/vue3-emoji-input",
-  "version": "1.0.7",
+  "version": "1.1.0",
   "description": "vue3可添加表情包的输入框",
   "type": "module",
-  "main": "./dist/emojiInput.umd.cjs",
+  "main": "./dist/emojiInput.cjs",
   "module": "./dist/emojiInput.js",
   "exports": {
     ".": {
       "import": "./dist/emojiInput.js",
-      "require": "./dist/emojiInput.umd.cjs"
+      "require": "./dist/emojiInput.cjs"
     },
     "./dist/style.css": "./dist/style.css"
   },

@@ -51,8 +51,8 @@
   const emojiInputRef = ref()
   const historyList = ref([])
   const isEmojiShow = ref(false)
-  let inputPart = null
-  let emojiPart = null
+  let inputPart: HTMLElement
+  let emojiPart: HTMLElement
 
   onMounted(() => {
     preventEmoji()
